@@ -1,0 +1,24 @@
+{
+  "name": "tailwindcss-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/style.css -o ./dist/style.css",
+    "watch": "tailwindcss -i ./src/style.css -o ./dist/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alx00ho/tailwindcss-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alx00ho/tailwindcss-app/issues"
+  },
+  "homepage": "https://github.com/alx00ho/tailwindcss-app#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
